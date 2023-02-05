@@ -1,0 +1,82 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("+1 Per Every Second","BloodTheme")
+ 
+---Tabs
+ 
+local Tab1 = window:NewTab("Mundo 1")
+local Tab1Section = Tab1:NewSection("Mundo 1")
+local Tab2 = window:NewTab("Mundo 2")
+local Tab2Section = Tab2:NewSection("Mundo 2")
+local Tab3 = window:NewTab("Mundo 3")
+local Tab3Section = Tab3:NewSection("Mundo 3")
+local Tab4 = window:NewTab("Sup")
+local Tab4Section = Tab4:NewSection("Sup is word")
+local Tab5 = window:NewTab("Credits")
+local Tab5Section = Tab5:NewSection("Made By Techell Tutoriais e Jogos")
+local Tab5Section = Tab5:NewSection("Techell Tutoriais e Jogos")
+ 
+---Buttons
+ 
+Tab1Section:NewButton("Zona 1","+1 Vitória",function()
+ 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15, 3, 150)
+end)
+ 
+Tab1Section:NewButton("Zona 2","+10 Vitórias",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20, 3, 150)
+end)
+ 
+Tab1Section:NewButton("Zona 3","+50 Vitórias",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-60, 65, 160)
+end)
+
+Tab1Section:NewButton("Zona 4","200 Vitórias",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-95, 3, 147)
+end)
+
+Tab1Section:NewButton("Zona 5","+1000 Vitórias",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-130, 60, 145)
+end)
+
+Tab2Section:NewButton("Zona 1","1 Vitória",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-307, 5, 167)
+end)
+
+Tab2Section:NewButton("Zona 2","5 Vitória",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-502, 5, 257)
+end)
+
+Tab2Section:NewButton("Zona 3","50 Vitória",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-752, 6, 605)
+end)
+
+Tab3Section:NewButton("Zona 1","1 Vitórias",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1097, 5, 606)
+end)
+
+Tab3Section:NewButton("Zona 2","10 Vitórias",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1246, 7, 4057)
+end)
+
+Tab3Section:NewButton("Zona 3","50 Vitórias",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1778, 11, 26523)
+end)
+
+Tab3Section:NewButton("Rebirth","Fazer Rebirth",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1951, 7, 13)
+end)
+
+Tab4Section:NewButton("Keyboard","Pc Like Keyboard",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
